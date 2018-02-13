@@ -10,4 +10,4 @@ WORKDIR /app
 EXPOSE 8080
 
 CMD ["/nodeapp.sh", "/bin/sh"]
-# ENTRYPOINT ["/runnode.sh"]
+# ENTRYPOINT ["/nodeapp.sh"]
