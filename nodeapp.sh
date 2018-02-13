@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x
+# set -x
 
 echo node version: `node --version`
 
