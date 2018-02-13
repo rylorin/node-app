@@ -9,5 +9,5 @@ WORKDIR /app
 
 EXPOSE 8080
 
-CMD ["/nodeapp.sh", "/bin/sh"]
-# ENTRYPOINT ["/nodeapp.sh"]
+#CMD ["/nodeapp.sh", "/bin/sh"]
+ENTRYPOINT ["/nodeapp.sh"]
